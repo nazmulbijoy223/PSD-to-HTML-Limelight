@@ -1,0 +1,280 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Header Area Start */
+    .main_header {
+        overflow: hidden;
+        padding: 0.625rem 0;
+    }
+    .header_container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main_header__ilogo {
+        float: left;
+        width: 30%;
+        margin: 0 auto;
+    }
+    .main_header__ilogo img {width: 40%;}
+    .main_header__ilogo p {font-size: 1.25rem;}
+    .hide_menu {display: none;}
+    .main_header__nav {
+        float: left;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .slicknav_menu {display: block;}
+    .main_header__nav .slicknav_menu {background: none;}
+    .main_header__nav li {
+        margin: 0;
+        width: 48%;
+    }
+    .slicknav_menu .slicknav_icon {
+        background: #333 !important;
+        font-size: 1.25rem;
+    }
+    /* Header Area Stop */
+    /* Home Area Start */
+    .home_area {margin-bottom: 10%;}
+    .home_area_content {padding: 10% 0 12% 0;}
+    .home_area__contentwith {
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+    .laptop_bigger__header {
+        display: none;
+    }
+    .mobile_bigger__header {display: block;}
+    .mobile_bigger__header h1 {
+        font-size: 2.75rem;
+        line-height: 3.4375rem;
+    }
+    .home_area__contentwith p {margin: 0.188rem 0 0.938rem 0;}
+    .home_area__contentwith button {padding: 0.375rem 1.25rem;}
+    .home_area .owl-carousel .owl-dots {
+        top: 19.063rem;
+        left: 16.875rem;
+    }
+    .home_area .owl-dots {
+        position: absolute;
+        display: block;
+        top: 100%;
+    } 
+    /* Home Area Stop */
+
+    /* About Area Start */
+    .about_area {
+        padding: 10% 0;
+        text-align: center;
+    }
+    .about_area___contentforphone {display: block;}
+    .about_area__content {display: none;}
+    .about_area__contentwithf, .about_area__contentwithr {
+        float: none;
+        width: 100%;
+    }
+    .about_area__contentwithf h2 {margin: 10% 0 5% 0;}
+    .about_area__contentwithr img {width: 100%;}
+    /* About Area Stop */
+    /* Service Area Start */
+    .service_area__content {
+        width: 100%;
+        padding: 10% 0 0 0;
+    }
+    .for_head__heading h2 {margin-bottom: 5%;}
+    .service_content {
+        float: none;
+        width: 100%;
+        padding: 7% 0;
+    }
+    .sr_cont__ex {padding-top: 1.875rem;}
+    .survice__but {margin-top: 1.875rem;}
+    /* Service Area Stop */
+    /* Idea Area Start */
+    .blog_area__idea {padding: 10% 0;}
+    .blog_area__container {
+        float: none;
+        margin: 0 auto;
+      }
+    .idea_area__content {display: none;}
+    .idea_area__contentformobile {display: block;}
+    .idea_area__contentwithf, .idea_area__contentwithr {
+        float: none;
+        width: 100%;
+    }
+    .idea_area__contentwithf h2 {margin: 10% 0 5% 0;}
+    .idea_area__contentwithr img {width: 100%;}
+    .contentwithf_p__content p {margin: 8% 0 5% 0;}
+    .owl-nav {display: none;}
+    .owl-dots {
+        position: absolute;
+        top: 94%;
+        width: 100%;
+        text-align: center;
+    }
+    .owl-carousel button.owl-dot {
+        background: #1f1f1f;
+        padding: 0.625rem !important;
+        margin: 0 0.3125rem;
+        border-radius: 50%;
+    }
+    .owl-dots .active {background-color: #16e816 !important;}
+    /* Idea Area Stop */
+    /* News Area Start */
+    .News_area {padding: 10% 0 5% 0;}
+    .News_area__content {display: none;}
+    .News_area__contforfmobile {display: block;}
+    .News_area__content h2 {margin-bottom: 0;}
+    .news_area__contentwithf, .news_area__contentwithr {
+        float: none;
+        width: 100%;
+        padding: 5% 0;
+        text-align: center;
+    }
+    .for_only__boxshow {box-shadow: 0 0 0.9375rem 0 rgba(4, 1, 1, 0.2);}
+    .news_area__contentwithf img, .news_area__contentwithr img {
+        width: 100%;
+        border: solid #292a29 0.9375rem;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    .news_area__contentwithr img {border: solid #fff 0.9375rem;}
+    .with_right, .with_left {
+        position: static;
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: none;
+        padding: 0.625rem 0.9375rem 0.9375rem;
+    }
+    .ndcl {margin-top: 0;}
+    .ndcl_ex {margin: 0;}
+    .ndcl_ex__extra {margin-bottom: 0.9375rem;}
+    .news_but {padding-top: 15%;}
+    .news_but button {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+    }
+    /* News Area Stop */
+    /* Testmonial Area Start */
+    .blog_area__testmonial {padding-bottom: 20%;}
+    .testomonial_area__container {margin: 0 auto;}
+    .testmonialidea_area__content {display: none;}
+    .testmonialidea_area__contentforphone {display: block;}
+    .testmonial_area__contentwithr h2 {padding: 10% 0 5% 0;}
+    .testmonial_area__contentwithr, .testmonial_area__contentwithf {
+        float: none;
+        width: 100%;
+        padding: 5% 0 0 0;
+    }
+    .testmonial_area__contentwithf .owl-dots {
+        top: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .for_owl_testmonial {padding: 10% 0 0;}
+    .contentwithleft_first, .contentwithleft_second {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+    }
+    .contentwithleft_first {padding-bottom: 20%;}
+    .owl-carousel .owl-item img {margin: 0 auto;}
+    .contentwithleft_first img, .contentwithleft_second img {position: static;}
+    .phone_prob {
+        padding: 0% 10% 5%;
+        border: solid #16e816 0.0625rem;
+    }
+    .phone_prob h4 {margin-top: 0.625rem;}
+    /* Testmonial Area Stop */
+    /* Gallery Area Start */
+    .galconcent_forlaptop {display: none;}
+    .galconcent_forphone {display: block;}
+    .gallery_content {
+        float: none;
+        width: 100%;
+        padding: 3% 0%;
+    }
+    .gla_con__right img, .gla_con__center img, .gla_con__left img {margin: 0;}
+    .gla_con__center img {margin: 0;}
+    .gallery_content img {width: 100%;}
+    .gallery_imperron {
+        padding: 30% 0%;
+        width: 100%;
+      }
+    /* Gallery Area Stop */
+    /* Contact Area Start */
+    .contact_area {
+        background-size: 130% 100%;
+        padding: 0;
+    }
+    .contact_area .container {width: 90%;}
+    .contact_content__left, .contact_content__right {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .contact_content__left p {
+        font-size: 140%;
+        margin: 1% 0 0 0;
+      }
+    .contact_content__left input,  .contact_content__left textarea{
+        padding: 1% 0 1% 3%;
+        margin: 1% 0%;
+        width: 100%;
+    }
+    .contact_content__left button {
+        font-size: 80%;
+        padding: 0.125rem 0.3125rem;
+        margin-top: 3%;
+    }
+    .contact_content__right iframe {
+        margin: 5% 0 3% 0;
+        height: 15em;
+        width: 100%;
+    }
+    /* Contact Area Stop */
+    /* Footer Area Start */
+    .my_footer {padding: 2.5rem 0 2.5rem 0;}
+    .footer_content {
+        float: none;
+        width: 100%;
+        padding: 0 0 1.875rem 0;
+    }
+    .footer_button button {margin-bottom: 0.3125rem;}
+    .footer_button button img {height: 1.5625rem;}
+    .footer_content span p {
+        font-size: 1.3125rem;
+        margin-bottom: 0.3125rem;
+    }
+    .subscrib {
+        width: 100%;
+        padding: 5% 0 0 0;
+    }
+    .subscrib input, .subscrib button, .subhr_for__mobile {
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 0.125rem;
+    }
+    .subscrib input::placeholder {text-align: center;}
+    .subhr_for__mobile {color: #fff;}
+    .subhr_for__latop {display: none;}
+    /* Footer Area Stop */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
