@@ -211,7 +211,7 @@
         background-size: 130% 100%;
         padding: 0;
     }
-    .contact_area .container {width: 90%;}
+    .contact_area .container, .my_footer .container {width: 80%;}
     .contact_content__left, .contact_content__right {
         float: left;
         width: 100%;

@@ -6,7 +6,6 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-html,body {height:100%;}
 .container {width: 74%; margin: 0 auto;}
 .all_main__heading {font-size: 2.125rem;}
 .all_main__paragarph {font-size: 0.9375rem;}
@@ -307,6 +306,10 @@ html,body {height:100%;}
 }
 .gallery_container {width: 80%;}
 .gallery_area_header p {margin-bottom: 3.125rem;}
+.gallery_contant__container {
+    width: 100%;
+    overflow: hidden;
+}
 .gallery_content {
     float: left;
     width: 33.33%;
@@ -322,6 +325,10 @@ html,body {height:100%;}
     margin-right: 0.5rem;
     padding: 7.0625rem 0;
     color: #fff;
+}
+.ex_for_gllaim {
+    margin-right: 0px;
+    margin-left: 8px;
 }
 .gallery_imperron h4 {
     font-size: 1.25rem;
