@@ -45,6 +45,7 @@
 /* Header Area Stop */
 /* Home Area Start */
 .home_area .owl-carousel {position: relative;}
+.home_area .owl-dots {width: 100%;}
 .home_area .owl-prev, .home_area .owl-next {
     color: white !important;
     font-size: 1.25rem !important;
@@ -122,7 +123,7 @@
     color: #fff;
     background-color: #252525;
 }
-.about_area__contentwithr img {width: 30.3125rem;}
+.about_area__contentwithr img {max-width: 100%;}
 /* About Area Stop */
 /* Service Area Start */
 .service_area__content {
@@ -178,7 +179,7 @@
     width: 68%;
     padding-left: 0.3125rem;
 }
-.idea_area__contentwithr img {width: 50.5rem;}
+.idea_area__contentwithr img {max-width: 100%;}
 /* Idea Area Stop */
 /* News Area Start */
 .News_area {
