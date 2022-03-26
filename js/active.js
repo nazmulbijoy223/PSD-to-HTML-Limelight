@@ -32,5 +32,6 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".main_header__nav").slicknav({
         "prependTo": '.main_header__nav',
+        "closeOnClick": '.main_header__nav',
     });
 })
